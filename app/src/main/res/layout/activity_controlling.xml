@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlling">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Iniciar" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Detener" />
+
+    <EditText
+        android:id="@+id/timeFlameHigh"
+        android:layout_width="205dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="00:00"
+        android:textSize="20sp"
+        tools:text="00:00" />
+
+    <EditText
+        android:id="@+id/timeFlameLow"
+        android:layout_width="205dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="245dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="00:00"
+        android:textSize="20sp"
+        tools:text="00:00" />
+
+    <TextView
+        android:id="@+id/flamagrande"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:gravity="left"
+        android:text="Flama grande"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/settime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:gravity="left"
+        android:text="Especificar tiempo para:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/flamabaja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="252dp"
+        android:gravity="left"
+        android:text="Flama baja"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="     "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="     "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/stove"
+        android:layout_width="152dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="357dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Easy and safe coocking stove"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/inFlameHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="550dp"
+        android:text="     "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/inFlameLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="600dp"
+        android:text="     "
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
